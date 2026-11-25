@@ -1,0 +1,11 @@
+{
+  "name": "socio-local-i18n",
+  "version": "0.1.0",
+  "description": "SocioLocal translations: one set of tools to push keys to Phrase, pull values, prune, and publish the files the apps read",
+  "main": "src/index.js",
+  "bin": { "socio-local-i18n": "bin/cli.js" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}
